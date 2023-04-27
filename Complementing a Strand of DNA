@@ -1,0 +1,8 @@
+s = "Insert Template"
+c1 = s[::-1]
+d = {"A":"T","T":"A","G":"C","C":"G"}
+c2 = ""
+for i in c1:
+    c2 = c2 + d[i]
+
+print(c2)
